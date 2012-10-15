@@ -1,0 +1,22 @@
+@media (max-width:480px) {
+	#siteWrapper { width: 100%; }
+	#mainNav ul { width: 100%; }
+	#siteDescription { width: 100%; }
+	#coreContent { float: none; width: 100%; padding: 10px; }
+	.hentry { text-align:center; }
+	.postContent { width: 435px; text-align:center; }
+	.comments { width: 435px; }
+	.commentForm { width: 435px; }
+	.commentForm textarea.loggedIn { width: 100%; }
+	#comments h3, legend span { width: 435px; }
+	#footer { width: 435px; }
+	.footerContent { width: 100%; }
+}
+
+@media (max-width:320px) {
+	.postContent { width: 270px; text-align:center;}
+	.comments { width: 270px; }
+	.commentForm { width: 270px; }
+	#comments h3, legend span { width: 270px; }
+	#footer { width: 270px; }
+}
